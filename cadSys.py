@@ -2,11 +2,11 @@
     Sistema para cadastro de clientes
     e controle pet shopping
 '''
-import menu
+from menu import menu_principal
 
 
 def main():
-    menu()
+    menu_principal()
 
 
 main()
