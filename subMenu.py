@@ -1,4 +1,5 @@
 from linhas import linha
+from salvar import salvar_cadastro
 import os
 def sub_menu():
     while True:
@@ -12,12 +13,10 @@ def sub_menu():
         if op_user.isdigit():
             op_user = int(op_user)
             if op_user == 1:
-                print('Salvar dados')
+                salvar_cadastro()
             elif op_user == 2:
                 print('Excluir dados')
             elif op_user == 3:
                 print('Listar dados')
             elif op_user == 4:
-                print('Voltando ao menu prncipal')
-                os.system('pause')
                 break
