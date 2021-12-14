@@ -1,5 +1,6 @@
 from linhas import linha
 from salvar import salvar_cadastro
+from exibir import exibir_dados
 import os
 def sub_menu():
     while True:
@@ -17,6 +18,6 @@ def sub_menu():
             elif op_user == 2:
                 print('Excluir dados')
             elif op_user == 3:
-                print('Listar dados')
+                exibir_dados()
             elif op_user == 4:
                 break
