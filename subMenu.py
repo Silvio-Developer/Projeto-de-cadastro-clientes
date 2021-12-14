@@ -4,7 +4,7 @@ from exibir import exibir_dados
 import os
 def sub_menu():
     while True:
-        op_sub = ['Salvar', 'Excluir', 'Lista', 'Voltar']
+        op_sub = ['Salvar', 'Excluir', 'Exibir Clientes', 'Voltar']
         os.system('cls')
         linha()
         for index, op in enumerate(op_sub):
